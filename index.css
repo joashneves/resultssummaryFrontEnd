@@ -1,0 +1,300 @@
+
+  .attribution { font-size: 1rem; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsla(241, 100%, 89%, 0.507);
+    font-size: 1rem;
+    align-items: center;
+  }
+  .block
+  {
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(0, 0%, 100%);
+    margin: 6rem;
+    border-radius: 2rem;
+    width: 49rem;
+  }
+  .box-result{ 
+    width: 23rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 2rem
+  }
+  .result
+  {
+    margin: 2rem;
+    color: hsla(0, 0%, 100%,0.8);
+    font-size: 1.5rem;
+  }
+  .number
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 3rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    background-color:  hsla(241, 72%, 46%, 0);
+    background-image: linear-gradient(to bottom, hsla(241, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    
+  }
+  .number h3{
+    margin-bottom: 0;
+  }
+  .number p{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%,0.2);
+  }
+  .great{
+    margin: 0rem;
+  }
+  .scored{
+    margin: 2rem;
+    color: hsla(0, 0%, 100%,0.8);
+    display: flex;
+    
+  }
+  .summay
+  {
+    font-size: 2rem;
+    height: 4rem;
+    margin: 2rem 0 0 2rem ;
+  }
+  .reaction {
+    padding-right: 1rem;
+    height: 4rem;
+    margin: 2rem;
+    width: 21rem;
+    background-color: hsla(0, 100%, 67%, 0.3);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+  .reaction li{
+    margin-top: 3px;
+    list-style-image: url(./assets/images/icon-reaction.svg);
+  }
+
+  .memory{
+    padding-right: 1rem;
+    height: 4rem;
+    margin: 2rem;
+    background-color:  hsla(39, 100%, 56%, 0.3);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+
+  }
+
+  .memory li {
+    list-style-image: url(./assets/images/icon-memory.svg);
+    margin-top: 3px; 
+    
+    }
+  .verbal{
+    padding-right: 1rem;
+    height: 4rem;
+    margin: 2rem;
+    background-color: hsla(166, 100%, 37%, 0.3);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+
+  .verbal li {
+    list-style-image: url(./assets/images/icon-verbal.svg);
+    margin-top: 3px; 
+}
+  .visual{
+    padding-right: 1rem;
+    height: 4rem;
+    margin: 2rem;
+    background-color: hsla(234, 85%, 45%, 0.3);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder; 
+  }
+
+  .visual li {
+    list-style-image: url(./assets/images/icon-visual.svg);
+    margin-top: 3px; 
+}
+.continue{
+  padding-right: 1rem;
+  height: 4rem;
+  margin: 2rem;
+  width: 21rem;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  border-radius: 2rem;
+  align-items: center; 
+  justify-items: normal;
+  justify-content: space-between;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  
+}
+.continue:hover{
+  background-color:  hsla(241, 72%, 46%, 0);
+  background-image: linear-gradient(to bottom, hsla(241, 72%, 46%, 1),hsla(241, 72%, 46%, 0.5));
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+
+  
+  .attribution { font-size: 12px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  .block
+  {
+    display: inline;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    margin: 0px;
+    padding: 1px;
+    border-radius: 0px ;
+    width: 375px;
+  }
+  .box-result{ 
+    width: 24rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0rem 0rem 4rem 4rem;
+  }
+
+  .number
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 3rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color:  hsla(241, 72%, 46%, 0);
+    background-image: linear-gradient(to bottom, hsla(241, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    
+  }
+  .number h3{
+    margin-bottom: 0;
+  }
+  .number p{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%,0.2);
+  }
+  .great{
+    margin: 0rem;
+  }
+  .scored{
+    margin: 1rem;
+    color: hsla(0, 0%, 100%,0.8);
+    display: flex;
+  }
+  .summay
+  {
+    font-size: 2rem;
+    height: 4rem;
+    margin: 2rem 2rem 2rem 2rem ;
+  }
+  .reaction {
+    padding-right: 1px;
+    height: 4rem;
+    margin: 2rem;
+    background-color: hsla(0, 100%, 67%, 0.0553);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+
+
+  .memory{
+    padding-right: 1px;
+    height: 4rem;
+    margin: 2rem;
+    background-color:  hsla(39, 100%, 56%,0.055);
+    border-radius: 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+
+  }
+
+  .memory li {
+    list-style-image: url(./assets/images/icon-memory.svg);
+    margin-top: 3px; 
+    
+    }
+  .verbal{
+    padding-right: 1px;
+    height: 4rem;
+    margin: 2rem;
+    background-color: hsl(166, 100%, 37%, 0.055);
+
+  }
+
+  .visual{
+    padding-right: 1px;
+    height: 4rem;
+    margin: 2rem;
+    background-color:  hsla(234, 85%, 45%,0.055);
+  }
+
+
+  .continue{
+    padding-right: 1px;
+    height: 4rem;
+    margin: 2rem;
+    width: 21rem;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 2rem;
+    align-items: center; 
+    justify-items: normal;
+    justify-content: space-between;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    
+}
+
+}
